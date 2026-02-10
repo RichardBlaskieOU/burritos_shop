@@ -89,9 +89,9 @@ class Program
         decimal minCost = 1200m;
         decimal unitCost = 3.80m;
         int itemSold = 0;
-        decimal cost = 0;
-        decimal revenue = 0;
-        decimal profit = 0;
+        decimal cost = 0m;
+        decimal revenue = 0m;
+        decimal profit = 0m;
 
         for (itemSold = 0; ; itemSold++)
         {
@@ -134,9 +134,9 @@ class Program
         decimal minCost = 1200m;
         decimal unitCost = 3.80m;
         int itemSold = 0;
-        decimal cost = 0;
-        decimal revenue = 0;
-        decimal profit = 0;
+        decimal cost = 0m;
+        decimal revenue = 0m;
+        decimal profit = 0m;
 
         while (profit <= 0)
         {
@@ -180,9 +180,9 @@ class Program
         decimal minCost = 1200m;
         decimal unitCost = 3.80m;
         int itemSold = 0;
-        decimal cost = 0;
-        decimal revenue = 0;
-        decimal profit = 0;
+        decimal cost = 0m;
+        decimal revenue = 0m;
+        decimal profit = 0m;
         do
         {
             itemSold++;
