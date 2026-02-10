@@ -3,7 +3,7 @@
 class Program
 {
 
-    /* Go to Tools > Options.
+    /* Go to Tools > Options. t
      * In the search bar at the top left of the window, type IntelliCode.
      * Find C# user model predictions (or "Whole line completions") and set it to Disabled.
      * */
