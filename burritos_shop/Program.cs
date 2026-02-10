@@ -85,14 +85,39 @@ class Program
 
         // Please Enter Your For Loop Codes Here
 
-        
+        decimal unitPrice = 9.00m;
+        decimal minCost = 1200m;
+        decimal unitCost = 3.80m;
+        int itemSold = 0;
+        decimal cost = 0;
+        decimal revenue = 0;
+        decimal profit = 0;
 
+        for (itemSold = 0; ; itemSold++)
+        {
+            revenue = unitPrice * itemSold;
+            cost = minCost + (unitCost * itemSold);
+            profit = revenue - cost;
 
-
-
+            if (profit <= 0)
+            {
+                Console.WriteLine($"After selling {itemSold} burritos: profit {profit:F2}");
+            }
+            else
+            {
+                Console.WriteLine("--------------------------");
+                Console.WriteLine("Success! Profit reached.");
+                Console.WriteLine($"Number of burritos: {itemSold}");
+                Console.WriteLine($"Revenue:  {revenue:c2}");
+                Console.WriteLine($"Cost:  {cost:c2}");
+                Console.WriteLine($"Profit:  {profit:c2}");
+                
+                break;
+            }
+        }
         Console.WriteLine("\nPress any key to return to menu...");
         Console.ReadKey();
-    }
+    } 
 
     // --- Using While Loop ---
 
